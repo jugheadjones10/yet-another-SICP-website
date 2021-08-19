@@ -5,7 +5,7 @@ const darkCodeTheme = require('prism-react-renderer/themes/dracula');
 module.exports = {
   title: 'Yet another SICP website',
   tagline: '',
-  url: 'https://your-docusaurus-test-site.com',
+  url: 'https://yet-another-sicp-website.netlify.app',
   baseUrl: '/',
   onBrokenLinks: 'throw',
   onBrokenMarkdownLinks: 'warn',
