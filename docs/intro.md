@@ -2,34 +2,19 @@
 sidebar_position: 1
 slug: /
 ---
+# Introduction
 
-# Tutorial Intro
+Each exercise will start with a "Code from the text" code snippet that shows any code that will be **relevant** to solving the question. That means it's there to help you understand the context and think about the solution, but in order to write the actual solution you might need more dependencies. 
 
-Let's discover **Docusaurus in less than 5 minutes**.
+I've made a standalone github repository that contains one dependency file for each question. The dependency-file for exercise 2.3, for example, is called **2.3-dep.scm**. In order to try the exercise, all you need to do is load the dependency file at the beginning :
 
-## Getting Started
-
-Get started by **creating a new site**.
-
-Or **try Docusaurus immediately** with **[docusaurus.new](https://docusaurus.new)**.
-
-## Generate a new site
-
-Generate a new Docusaurus site using the **classic template**:
-
-```shell
-npx @docusaurus/init@latest init my-website classic
+```scheme
+(load "2.3-dep.scm")
+;           ;
+;Your answer;
+;           ;
 ```
 
-## Start your site
+Of course, you need to be inside the directory full of dependency files for the loading to work.
 
-Run the development server:
-
-```shell
-cd my-website
-
-npx docusaurus start
-```
-
-Your site starts at `http://localhost:3000`.
 
