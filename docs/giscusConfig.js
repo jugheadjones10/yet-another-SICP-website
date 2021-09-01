@@ -3,7 +3,7 @@ export default {
   repoId: "MDEwOlJlcG9zaXRvcnkzOTc3NzgwODE=",
   category: "General",
   categoryId: "DIC_kwDOF7Wcoc4B-2HB",
-  mapping: "pathname",
+  mapping: "title",
   reactionsEnabled: "0",
   emitMetadata: "0",
   theme: "light"

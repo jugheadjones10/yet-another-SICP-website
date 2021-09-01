@@ -7,7 +7,7 @@ const katex = require('rehype-katex');
 module.exports = {
   title: 'Yet another SICP website',
   tagline: '',
-  url: 'https://yet-another-sicp-website.netlify.app',
+  url: 'https://yet-another-sicp-website.com',
   baseUrl: '/',
   onBrokenLinks: 'throw',
   onBrokenMarkdownLinks: 'warn',
