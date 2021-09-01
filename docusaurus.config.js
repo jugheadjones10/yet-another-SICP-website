@@ -1,5 +1,7 @@
 const lightCodeTheme = require('prism-react-renderer/themes/github');
 const darkCodeTheme = require('prism-react-renderer/themes/dracula');
+const math = require('remark-math');
+const katex = require('rehype-katex');
 
 /** @type {import('@docusaurus/types').DocusaurusConfig} */
 module.exports = {
@@ -85,6 +87,13 @@ module.exports = {
 additionalLanguages: ['scheme']
     },
   },
+	stylesheets: [
+	    {
+		            href: "https://cdn.jsdelivr.net/npm/katex@0.13.11/dist/katex.min.css",
+		            integrity: "sha384-Um5gpz1odJg5Z4HAmzPtgZKdTBHZdw8S29IecapCSB31ligYPhHQZMIlWLYQGVoc",
+		            crossorigin: "anonymous",
+		        },
+	],
   presets: [
     [
       '@docusaurus/preset-classic',
@@ -94,7 +103,9 @@ additionalLanguages: ['scheme']
           // Please change this to your repo.
           editUrl:
             'https://github.com/facebook/docusaurus/edit/master/website/',
-		routeBasePath: '/'
+		routeBasePath: '/',
+		remarkPlugins: [math],
+		rehypePlugins: [katex],
         },
 //        blog: {
 //          showReadingTime: true,

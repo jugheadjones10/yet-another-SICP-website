@@ -1,0 +1,27 @@
+import { Giscus } from '@giscus/react';
+import config from '../../giscusConfig.js';
+
+# Exercise 2.12
+
+### Dependencies
+
+[Exercise 2.7](./exercise-2.07)
+
+```scheme
+(define (center i)
+  (/ (+ (lower-bound i) (upper-bound i)) 2))
+
+(define (width i)
+  (/ (- (upper-bound i) (lower-bound i)) 2))
+```
+
+ <Giscus
+  repo={config.repo}
+  repoId={config.repoId}
+  category={config.category}
+  categoryId={config.categoryId}
+  mapping={config.mapping}
+  reactionsEnabled={config.reactionsEnabled}
+  emitMetadata={config.emitMetadata}
+  theme={config.theme}
+/>

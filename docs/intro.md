@@ -18,3 +18,7 @@ I've made a standalone github repository that contains one dependency file for e
 Of course, you need to be inside the directory full of dependency files for the loading to work.
 
 
+When another exercise is listed among one exercise's "dependencies", I may be referring to both the solutions to that exercise and other code displayed under that exercise's dependencies.
+Make the above comment clearer.
+
+

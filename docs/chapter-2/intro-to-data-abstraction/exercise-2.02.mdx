@@ -1,0 +1,28 @@
+import { Giscus } from '@giscus/react';
+import config from '../../giscusConfig.js';
+
+# Exercise 2.2
+
+### Dependencies
+
+```scheme
+(define (print-point p)
+  (newline)
+  (display "(")
+  (display (x-point p))
+  (display ",")
+  (display (y-point p))
+  (display ")"))
+```
+
+
+ <Giscus
+  repo={config.repo}
+  repoId={config.repoId}
+  category={config.category}
+  categoryId={config.categoryId}
+  mapping={config.mapping}
+  reactionsEnabled={config.reactionsEnabled}
+  emitMetadata={config.emitMetadata}
+  theme={config.theme}
+/>
