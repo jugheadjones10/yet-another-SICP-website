@@ -1,4 +1,4 @@
-for i in `seq -w 14 24`
+for i in `seq -w 25 29`
 do
 	  touch "exercise-2.$i.mdx"
 done
