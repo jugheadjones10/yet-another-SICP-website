@@ -2,6 +2,7 @@
 sidebar_position: 1
 slug: /
 ---
+
 # Introduction
 
 Each exercise will start with a "Code from the text" code snippet that shows any code that will be **relevant** to solving the question. That means it's there to help you understand the context and think about the solution, but in order to write the actual solution you might need more dependencies. 
